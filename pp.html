@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Game</title>
+    <link rel="stylesheet" type="text/css" href="pp.css">
+
+</head>
+<body>
+    <p id="back">Ping Pong Game</p>
+    
+    <div id="bar-1" class="style">
+       <span id="b1" class="label">Bar-1</span>
+    </div>
+
+    <div id="form">
+        <form>
+            
+            <label for="player_1">Player-1</label>
+            <input id="player_1" type="text">
+            <label for="player_2">Player-2</label>
+            <input id="player_2" type="text">
+            <button onclick="shrink(); return false;" id="but">Submit</button>
+        </form>
+    </div>
+    <div id="ball" class="red"></div>
+    
+    <div id="score_1" class="size">
+         <p id="m1">0</p>
+    </div>
+
+    <div id="score_2" class="size">
+        <p id="m2">0</p>
+         
+    </div>
+
+    <div id="bar-2" class="style">
+       <span id="b2" class="label">Bar-2</span>
+        
+    </div>
+    <script type="text/javascript" src="pp.js"></script>
+
+</body>
+</html>
